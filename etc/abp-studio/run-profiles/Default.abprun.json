@@ -1,0 +1,17 @@
+﻿{
+  "applications": {
+    "Acme.AngulareTestProject.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44311",
+      "path": "../../../src/Acme.AngulareTestProject.HttpApi.Host/Acme.AngulareTestProject.HttpApi.Host.csproj",
+      "kubernetesService": ".*-httpapihost$"  
+    },
+    "Acme.AngulareTestProject.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "kubernetesService": ".*-angular$"        
+    }
+  }
+}

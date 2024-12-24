@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "Acme.AngulareTestProject.Application": {
+      "path": "src/Acme.AngulareTestProject.Application/Acme.AngulareTestProject.Application.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.Application.Tests": {
+      "path": "test/Acme.AngulareTestProject.Application.Tests/Acme.AngulareTestProject.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.AngulareTestProject.Domain.Shared": {
+      "path": "src/Acme.AngulareTestProject.Domain.Shared/Acme.AngulareTestProject.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.Application.Contracts": {
+      "path": "src/Acme.AngulareTestProject.Application.Contracts/Acme.AngulareTestProject.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.HttpApi": {
+      "path": "src/Acme.AngulareTestProject.HttpApi/Acme.AngulareTestProject.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.HttpApi.Client": {
+      "path": "src/Acme.AngulareTestProject.HttpApi.Client/Acme.AngulareTestProject.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.EntityFrameworkCore.Tests": {
+      "path": "test/Acme.AngulareTestProject.EntityFrameworkCore.Tests/Acme.AngulareTestProject.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.AngulareTestProject.EntityFrameworkCore": {
+      "path": "src/Acme.AngulareTestProject.EntityFrameworkCore/Acme.AngulareTestProject.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.TestBase": {
+      "path": "test/Acme.AngulareTestProject.TestBase/Acme.AngulareTestProject.TestBase.abppkg",
+      "folder": "test"
+    },
+    "Acme.AngulareTestProject.Domain.Tests": {
+      "path": "test/Acme.AngulareTestProject.Domain.Tests/Acme.AngulareTestProject.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "Acme.AngulareTestProject.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Acme.AngulareTestProject.HttpApi.Client.ConsoleTestApp/Acme.AngulareTestProject.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "Acme.AngulareTestProject.DbMigrator": {
+      "path": "src/Acme.AngulareTestProject.DbMigrator/Acme.AngulareTestProject.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.HttpApi.Host": {
+      "path": "src/Acme.AngulareTestProject.HttpApi.Host/Acme.AngulareTestProject.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "Acme.AngulareTestProject.Domain": {
+      "path": "src/Acme.AngulareTestProject.Domain/Acme.AngulareTestProject.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
